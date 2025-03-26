@@ -1,0 +1,60 @@
+patient_id,doctor_id,Appointment date time,Appointment location,Reason for visit,Note,Follow up
+3ce146052ef46ba921a3c031579084f1,1,2021-07-15 10:00:00,123 Heart St.,Chest pain,,True
+c8ed4a76f95a3f996a92fc3e965fad07,1,2021-08-19 09:00:00,123 Heart St.,Check-up,,True
+1761e4d47b64c7fc3823bd30ec698bf7,1,2021-08-31 11:30:00,123 Heart St.,Heart check,,False
+32de06bfd5dc8308953e671c982b25d5,1,2021-09-07 14:30:00,123 Heart St.,Routine check,,True
+cfbe700ffcc3f75750f4b8c9b03e714a,1,2021-09-17 09:00:00,123 Heart St.,Chest discomfort,,True
+c51bbc35a87add52cb8d36ea17f30149,2,2021-08-15 14:00:00,456 Brain Ave.,Headache,Patient reports severe migraines.,False
+0ac8b23767f277e691b6e653b3aa33bc,2,2021-12-20 10:00:00,456 Brain Ave.,Headache,Patient reports severe migraines.,False
+2a6f143bd2e49a8af3307a6323f16a8a,2,2021-07-22 10:00:00,456 Brain Ave.,Dizziness,,True
+29669684f4018994fbca28d05997e8b8,2,2021-08-21 10:30:00,456 Brain Ave.,Migraine,,False
+70a2021125059ea62a12ea1688ae0195,2,2021-09-02 09:15:00,456 Brain Ave.,Seizures,,True
+70e34d2aa30415f2512b0b049690f121,2,2021-09-12 09:30:00,456 Brain Ave.,Memory issues,,True
+e8808cdd347c8c2f95ddca99c801ebcd,2,2021-09-22 09:45:00,456 Brain Ave.,Head injury,,True
+9c6ee3fcbfd82c300130c23cba5519ce,3,2021-08-20 09:30:00,789 Bone Blvd.,Back pain,Prescribed pain relief.,True
+9ad948d7b85b0cbf7d8ba2640bbe453c,3,2021-08-20 13:00:00,789 Bone Blvd.,Knee pain,,True
+fa71a3adfaeb97c44bb630f6ca12e05f,3,2021-09-01 16:45:00,789 Bone Blvd.,Ankle injury,,True
+6a1ef320f0229813e0c4b70534c876e9,4,2021-07-22 11:00:00,321 Skin Rd.,Skin rash,Advised allergy test.,True
+71acd806aff42b18a1b7972d73fb15d9,4,2021-12-31 14:00:00,321 Skin Rd.,Skin rash,Advised allergy test.,True
+59ee408d881fa24c7917572642c3d75d,4,2021-09-06 09:00:00,321 Skin Rd.,Skin irritation,,False
+810de6aeafa9b125da12c090423e3888,4,2021-09-16 12:15:00,321 Skin Rd.,Rash,,False
+41c777f6c01cc57bd9b1033efd089c9a,5,2021-08-25 14:00:00,654 Child Ln.,Regular check-up,,False
+1994b340710a2d5a5fa1441e7ae55836,5,2021-11-15 08:00:00,654 Child Ln.,Flu symptoms,,False
+370b3fcee8689fd846910453c1c2b0f6,5,2021-08-15 10:00:00,654 Child Ln.,Follow-up,,False
+6642cdf58e02acad075491260155bd60,5,2021-08-28 15:30:00,654 Child Ln.,Check-up,,True
+5408f15d9b837954822e46e8487227a8,5,2021-09-09 16:00:00,654 Child Ln.,Immunization,,False
+27a3fd8881ba94d9a3ec09eecfa71b92,5,2021-09-19 15:00:00,654 Child Ln.,Check-up,,False
+eaae35d615bb272fe9eb06c9b3dac2b4,6,,321 Skin Rd.,Acne treatment,,True
+5d3299d1d1a17b9a7133e5b374029dd8,6,2021-08-16 14:30:00,321 Skin Rd.,Allergy,,True
+7187431a277f363ce8776728a0d35be7,6,2021-08-29 08:45:00,321 Skin Rd.,Skin check,,True
+8ce886c609ec233765bd29268dc30365,6,2021-09-10 11:45:00,321 Skin Rd.,Mole check,,True
+f057f8f8930f67fef8227a510a1bf464,6,2021-09-20 10:30:00,321 Skin Rd.,Acne,,True
+69e7f5c9d5ac470e0573374be29ece6a,7,2021-10-09 11:00:00,987 Mind Way.,Anxiety,Prescribed medication.,True
+9b9414e6057163b9a5f59ce01d701e0e,7,2021-08-17 11:00:00,987 Mind Way.,Depression,Prescribed therapy.,True
+1dc619d5b3d173c910e04b3eac2e00f6,7,2021-08-30 14:15:00,987 Mind Way.,Counseling,,True
+06116650b99b7ef7b80bca0d9494b704,7,2021-09-11 15:15:00,987 Mind Way.,Stress,,True
+bfc214c8fa26c48609adbbd24c26d594,7,2021-09-21 14:15:00,987 Mind Way.,Anxiety,,True
+5d1f2da561f6906ed5ba0a9c521322d6,8,2021-10-05 15:00:00,543 Ear St.,Hearing loss,Referred to audiologist.,True
+538a03b8641a65b8049d21106500f495,8,2021-05-05 09:00:00,543 Ear St.,Sore throat,,True
+7864dba84b44917793c2b9fd52ea6a7a,8,2021-08-18 15:00:00,543 Ear St.,Ear infection,,False
+fdb8060f870f219a71d163c9f16ef720,8,2021-08-26 09:00:00,543 Ear St.,Hearing test,,True
+2f30801b555ab094ae7a38b76f524a48,8,2021-09-08 10:15:00,543 Ear St.,Hearing loss,,True
+5197749e076746fbb37c9331b30f4dcf,8,2021-09-18 13:45:00,543 Ear St.,Ear pain,,True
+e133ae1be7ec3b0bbc6d6fa082620596,9,2021-12-01 13:00:00,111 Health Pl.,Annual physical,Needs blood tests,True
+8a942611556713dba18c0823c796683a,9,2021-08-22 16:00:00,111 Health Pl.,Physical,,True
+abef159a908165b1366eb048c0908f4c,9,2021-09-03 13:30:00,111 Health Pl.,Blood work,,False
+6e9a24d4f8bede767c288115f7173034,9,2021-09-13 14:00:00,111 Health Pl.,Fatigue,,False
+c058420376836b265ff36faca3ec3378,9,2021-09-23 16:00:00,111 Health Pl.,Check-up,,False
+d64621a2e546c9c2f77eb37bab753c2e,10,2021-12-15 16:00:00,222 Baby Blvd.,Prenatal check-up,,True
+7e18a504c67540e5cefb57ebf3c92419,10,2021-08-23 11:15:00,222 Baby Blvd.,Consultation,,True
+448ff6561a1fd80e29b2b9d7d4daad79,10,2021-09-04 10:45:00,222 Baby Blvd.,Consultation,,True
+96aa6e688795ae637f4acee5a55d205f,10,2021-09-14 10:00:00,222 Baby Blvd.,Consultation,,True
+5d3ab77f5ca57ad100f8efc280abc26c,10,2021-09-24 11:15:00,222 Baby Blvd.,Consultation,,True
+4048eda7594557fd1d45e7932e9527cb,11,2021-01-13 09:00:00,333 Cancer Ct.,Consultation,,True
+1bb2a0e53497c88455f0113ff929b427,11,2021-08-24 14:45:00,333 Cancer Ct.,Cancer screening,,False
+dee1cfc015f444487a2a8835833c31d9,11,2021-09-05 15:00:00,333 Cancer Ct.,Chemotherapy,,True
+465d1dc548bfb75411029c65c95cfc76,11,2021-09-15 16:30:00,333 Cancer Ct.,Follow-up,,True
+65f155dd3c8f7468b517beef8e6a7995,12,2021-02-28 11:30:00,444 Hormone Rd.,Thyroid check,,False
+de7e3a62c911d7abaf06edc8efb56926,12,2021-08-25 12:00:00,444 Hormone Rd.,Diabetes check,,True
+575bddbdf1a5e9171358752e2aa6eeae,13,2021-04-30 10:00:00,654 Child Ln.,Check-up,,True
+3dc4a934949af30a85b3920ed426d6de,13,2021-08-27 10:00:00,654 Child Ln.,Flu shot,,False

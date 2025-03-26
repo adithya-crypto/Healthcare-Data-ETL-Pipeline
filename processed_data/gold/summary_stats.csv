@@ -1,0 +1,2 @@
+total_patients,total_doctors,total_appointments,specialties,date_range,follow_up_ratio
+59,13,59,"['Cardiology', 'Neurology', 'Orthopedics', 'Dermatology', 'Pediatrics', 'Psychiatry', 'ENT', 'General', 'Obstetrics', 'Oncology', 'Endocrinology']",2021-01-13 to 2021-12-31,41/59

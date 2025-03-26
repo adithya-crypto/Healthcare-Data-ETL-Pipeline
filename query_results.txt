@@ -1,0 +1,95 @@
+Tables_in_healthcare_db
+
+appointments
+doctors
+patients
+
+Field	Type	Null	Key	Default	Extra
+patient_id	varchar(32)	NO	PRI	NULL	
+patient_name	varchar(100)	YES		NULL	
+date_of_birth	datetime	YES		NULL	
+gender	varchar(10)	YES		NULL	
+
+Field	Type	Null	Key	Default	Extra
+doctor_id	int	NO	PRI	NULL	auto_increment
+doctor_name	varchar(100)	YES		NULL	
+specialty	varchar(50)	YES		NULL	
+
+Field	Type	Null	Key	Default	Extra
+appointment_id	int	NO	PRI	NULL	auto_increment
+patient_id	varchar(32)	YES	MUL	NULL	
+doctor_id	int	YES	MUL	NULL	
+appointment_datetime	datetime	YES		NULL	
+location	varchar(200)	YES		NULL	
+reason	varchar(200)	YES		NULL	
+notes	varchar(500)	YES		NULL	
+follow_up	tinyint(1)	YES		NULL	
+total_patients
+59
+total_doctors
+13
+total_appointments
+59
+specialty	doctor_count
+Dermatology	2
+Pediatrics	2
+Cardiology	1
+Neurology	1
+Orthopedics	1
+Psychiatry	1
+ENT	1
+General	1
+Obstetrics	1
+Oncology	1
+Endocrinology	1
+
+doctor_name	specialty	appointment_count
+Dr. Michael Brown	Neurology	7
+Dr. Robert Adams	Pediatrics	6
+Dr. Patricia Green	ENT	6
+Dr. Emily Smith	Cardiology	5
+Dr. Linda Lee	Dermatology	5
+Dr. William Wilson	Psychiatry	5
+Dr. Barbara Stone	General	5
+Dr. Kevin O'Neil	Obstetrics	5
+Dr. James Lee	Dermatology	4
+Dr. Nancy Black	Oncology	4
+Dr. Sarah Davis	Orthopedics	3
+Dr. Laura White	Endocrinology	2
+Dr. Thomas Jones	Pediatrics	2
+
+specialty	total_appointments	follow_ups	follow_up_percentage
+Orthopedics	3	3	100.00
+Psychiatry	5	5	100.00
+Obstetrics	5	5	100.00
+ENT	6	5	83.33
+Cardiology	5	4	80.00
+Dermatology	9	7	77.78
+Oncology	4	3	75.00
+Neurology	7	4	57.14
+Endocrinology	2	1	50.00
+General	5	2	40.00
+Pediatrics	8	2	25.00
+patient_name	visit_count
+Chloe Scott	1
+Robert Brown	1
+Lucas Thompson	1
+Lucy	1
+Charlotte Hernandez	1
+Evelyn Martin	1
+Victoria Turner	1
+William Garcia	1
+Mike Miller	1
+Christopher Hall	1
+month	appointment_count
+NULL	1
+2021-01	1
+2021-02	1
+2021-04	1
+2021-05	1
+2021-07	3
+2021-08	20
+2021-09	24
+2021-10	2
+2021-11	1
+2021-12	4
