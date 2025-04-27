@@ -1,2 +1,2 @@
 Patient Name,Patint DOB,Patient Gendr,Appointment date time,Doctor name,Doctor specialty,Appointment location,Reason for visit,Note,Follow up,ingestion_date,source_file
-,2000-01-01,Female,2021-10-09 11:00:00,Dr. William Wilson,Psychiatry,987 Mind Way.,Anxiety,Prescribed medication.,True,2024-12-06 12:13:55.193699,healthcare_data.csv
+,2000-01-01,Female,2021-10-09 11:00:00,Dr. William Wilson,Psychiatry,987 Mind Way.,Anxiety,Prescribed medication.,True,2025-03-26 22:21:54.047780,healthcare_data.csv
